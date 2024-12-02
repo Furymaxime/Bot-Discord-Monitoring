@@ -45,10 +45,10 @@ CHANNEL_ID=ID_DU_CANAL
 API_KEY=VOTRE_API_KEY
 STATUS_API=URL_DE_L_API_DE_STATUTS
 ```
-DISCORD_TOKEN: Le token de votre bot Discord. Vous pouvez obtenir ce token sur le portail des développeurs Discord.
-CHANNEL_ID: L'ID du canal Discord où les statuts seront envoyés. Pour récupérer l'ID du canal, activez le "mode développeur" dans Discord, faites un clic droit sur le canal, puis cliquez sur "Copier l'ID".
-API_KEY: Votre clé API pour accéder à l'API de statut des serveurs.
-STATUS_API: L'URL de l'API pour récupérer les informations de statut des serveurs. Ce serait l'endpoint de votre service de monitoring.
+DISCORD_TOKEN: Le token de votre bot Discord. Vous pouvez obtenir ce token sur le portail des développeurs Discord.  
+CHANNEL_ID: L'ID du canal Discord où les statuts seront envoyés. Pour récupérer l'ID du canal, activez le "mode développeur" dans Discord, faites un clic droit sur le canal, puis cliquez sur "Copier l'ID".  
+API_KEY: Votre clé API pour accéder à l'API de statut des serveurs.  
+STATUS_API: L'URL de l'API pour récupérer les informations de statut des serveurs. Ce serait l'endpoint de votre service de monitoring.  
 
 
 ### 4. Créer le fichier votre_bot.js
