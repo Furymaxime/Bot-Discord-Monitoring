@@ -57,7 +57,7 @@ STATUS_API: L'URL de l'API pour récupérer les informations de statut des serve
 Une fois que tout est configuré, lancez le bot avec la commande suivante :
 
 ```bash
-node index.js
+node votre_bot.js
 ```
 
 
