@@ -1,0 +1,5 @@
+# Ignorer le fichier .env contenant les informations sensibles
+.env
+
+# Ignorer les fichiers de log ou de sortie
+*.log
