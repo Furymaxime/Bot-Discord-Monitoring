@@ -116,7 +116,7 @@ async function fetchStatus() {
     }
 
     // Ajouter la liste des serveurs à la description de l'embed
-    embed.setDescription(`${listContent}\n\n[Voir le détails de la disponibilité des serveurs Fury](http://monitoring.furymax.fr/status/fury/)`);
+    embed.setDescription(`${listContent}\n\n[Voir le détails de la disponibilité des serveurs Fury](http://XXXXXXXXXXX/)`);
 
     return embed;
   } catch (error) {
@@ -143,7 +143,7 @@ async function fetchStatus() {
     const embed = new EmbedBuilder()
       .setColor(0xFFFF00) // Jaune pour injoignabilité
       .setTitle('Monitoring injoignable')
-      .setDescription(`${listContent}\n\n[Voir le détails de la disponibilité des serveurs Fury](http://monitoring.furymax.fr/status/fury/)`)
+      .setDescription(`${listContent}\n\n[Voir le détails de la disponibilité des serveurs Fury](http://XXXXXXXXXXX/)`)
       .setFooter({ text: 'Mis à jour toutes les 10 secondes' });
 
     return embed;
